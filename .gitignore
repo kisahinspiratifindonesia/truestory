@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Python dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Logs & Debugging files
+logs/
+*.log
+debug.log
+*.out
+
+# Editor & System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build & Generated files
+dist/
+build/
+*.bak
+*.tmp
+*.cache
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.development
+.env.production
+config.json
+credentials.json
+
+# Static & Media files (if necessary)
+uploads/
+media/
+staticfiles/
+*.mp4
+*.mov
+*.avi
+
+# Database & Backup files
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Git-specific files
+.gitignore
+.gitattributes
